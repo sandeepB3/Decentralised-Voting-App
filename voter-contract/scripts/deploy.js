@@ -7,7 +7,7 @@ const main = async () => {
 
     const voterIds = [1234, 2345, 3456, 4567];
     const names = ["Sandeep Pillai", "Shreya Gurav", "Darshan Lahamage", "Rohan Rane"];
-    const mobileNums = ["9892524393", "9699070796", "7020772376", "8424008838"];
+    const mobileNums = ["9892634393", "9699120796", "7020322376", "8424332838"];
 
     const voterContractFactory = await hre.ethers.getContractFactory("Voters");
     const voterContract = await voterContractFactory.deploy(voterIds, names, mobileNums);
