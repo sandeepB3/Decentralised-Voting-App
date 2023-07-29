@@ -6,7 +6,7 @@ import block_logo from '../assets/blockchain_logo.png';
 import { useNavigation } from '@react-navigation/native';
 import { useDispatch } from "react-redux";
 import { setUserData } from "../store/userSlice";
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 const VoterAuthScreen = () => {
   const navigation = useNavigation();

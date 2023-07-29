@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setUserData } from "../store/userSlice";
 import { useNavigation } from '@react-navigation/native';
 import axios from "axios";
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 export default Candidates_list = ({ candidate }) => {
 

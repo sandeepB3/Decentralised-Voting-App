@@ -40,7 +40,7 @@ function VotingPortal() {
   const [votingStopped, setVotingStopped] = useState(false);
   const [winner, setWinner] = useState("");
 
-  const contractAddress = "0xB4Ea11292CDEC20B9b0D68B9504B8D3ebb55b660";
+  const contractAddress = "0x28aEcE637269EA7B845D35Dc6A91949525eaeD33";
   const contractABI = abi.abi;
   
   useEffect(() => {
