@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, TouchableOpacity, Image, Dimensions } from 'react-native';
 import axios from 'axios';
 import { BarChart } from 'react-native-chart-kit';
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 
 export default ResultScreen = () => {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
 import CandidatesList from "../Components/CandidatesList";
 import axios from "axios";
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 const DetailsElection = ({ electionId }) => {
   const [candidateList, setCandidatesList] = useState([]);

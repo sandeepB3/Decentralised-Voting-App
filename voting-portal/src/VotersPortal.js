@@ -10,7 +10,7 @@ function VotersPortal() {
     const [voterId, setVoterId] = useState("");
     const [searchId, setSearchId] = useState("");
 
-    const contractAddress = "0xFde041875385b30335E9Ce3AA1c3a5B1f5E7BE23";
+    const contractAddress = "0x8930584bC0386448Ed3b1274df4566e821007656";
     const contractABI = abi.abi;
 
     const admin = async () => {

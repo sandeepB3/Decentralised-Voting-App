@@ -3,7 +3,7 @@ import { View, ScrollView, StyleSheet, Text, Image, TouchableOpacity } from 'rea
 import { useNavigation } from '@react-navigation/native';
 import { Alert } from "react-native";
 import axios from 'axios';
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 const ElectionScreen = () => {
   const navigation = useNavigation();

@@ -3,7 +3,7 @@ import { View, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-nativ
 import { useSelector } from "react-redux";
 import axios from 'axios';
 import { useNavigation } from '@react-navigation/native';
-const hostURL = "192.168.43.192" || "localhost";
+const hostURL = "192.168.29.192" || "localhost";
 
 const OTPScreen = () => {
   
